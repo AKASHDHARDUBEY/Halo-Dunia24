@@ -1,0 +1,7 @@
+n = int(input())
+
+if n%15==0:
+#if n % 3 == 0 and n % 5 == 0:
+    print(F"{n} is divisible by both 3 and 5")
+else:
+    print(F"{n} is not divisible by both 3 and 5")
